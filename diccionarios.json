@@ -1,0 +1,41 @@
+{
+  "variedades": [
+    { "valor": "SANTINA", "aliases": ["SANTINA"] },
+    { "valor": "LAPINS", "aliases": ["LAPINS"] },
+    { "valor": "REGINA", "aliases": ["REGINA"] },
+    { "valor": "BING", "aliases": ["BING"] },
+    { "valor": "RAINIER", "aliases": ["RAINIER"] },
+    { "valor": "KORDIA", "aliases": ["KORDIA"] },
+    { "valor": "SWEETHEART", "aliases": ["SWEETHEART"] }
+  ],
+  "exportadoras": [
+    { "valor": "DDC", "aliases": ["DDC"] },
+    { "valor": "LECAROS COX", "aliases": ["LECAROS COX", "LECAROS"] },
+    { "valor": "PRIME CHERRIES", "aliases": ["PRIME CHERRIES", "PRIME"] },
+    { "valor": "FRUKA", "aliases": ["FRUKA"] },
+    { "valor": "DOLE", "aliases": ["DOLE"] },
+    { "valor": "WEBER", "aliases": ["WEBER"] }
+  ],
+  "empaques": [
+    { "valor": "2IN1/5KG", "aliases": ["2IN1/5KG", "2IN1 / 5KG"] },
+    { "valor": "2.5KG", "aliases": ["2.5KG", "2,5KG"] },
+    { "valor": "5KG", "aliases": ["5KG"] },
+    { "valor": "2IN1", "aliases": ["2IN1"] }
+  ],
+  "calibres": [
+    { "valor": "4JD", "aliases": ["4JD"] },
+    { "valor": "3JD", "aliases": ["3JD"] },
+    { "valor": "2JD", "aliases": ["2JD"] },
+    { "valor": "JD", "aliases": ["JD"] },
+    { "valor": "JL", "aliases": ["JL"] },
+    { "valor": "JJJ", "aliases": ["JJJ"] },
+    { "valor": "JJ", "aliases": ["JJ"] },
+    { "valor": "J", "aliases": ["J"] },
+    { "valor": "XL", "aliases": ["XL"] },
+    { "valor": "L", "aliases": ["L"] }
+  ],
+  "embarques": [
+    { "valor": "aereo", "aliases": ["空运", "AIR", "AEREO", "AÉREO"] },
+    { "valor": "maritimo", "aliases": ["海运", "SEA", "MARITIMO", "MARÍTIMO"] }
+  ]
+}
