@@ -2,9 +2,16 @@
 
 Aplicacion de consola en Python para procesar archivos `.txt` con mensajes comerciales de cerezas y agregar los registros a un unico archivo Excel.
 
-## 1. Resumen del diseno
 
-El sistema ahora trabaja por carpetas:
+## 1. Resumen del problema
+
+En chile la produccion y exportacion de cerezas es uno de los rubros mas importantes del mercado, donde el principal pais importador es China, siendo Guangzhou y Shangai los principales mercados del pais. Todos los dias los SELLERS (vendedores en el mercado local chino) envian informes sobre los precios a los que se vende la fruta (El precio depende de varios factores como variedad, empaque, calidad y tamaño), estos informes son enviados principalmente por correo o en grupos de WE-CHAT.
+
+El formato de estos mensajes es siempre similar, donde un ejemplo es: " 2025-11-23 GZ 智利空运车厘子: 新货 周华 4P/DDC/SANTINA/2.5KG/2JD/280，3JD/310，清 张明&阿旺-东航 17P/LECAROS COX/SANTINA/2.5KG/JL/230，JD/240，清 万鑫 10P/PRIME CHERRIES/SANTINA/2.5KG/2JD/275-280，3JD/310，清 鸿骏 5P/FRUKA/SANTINA/2IN1/5KG/2JD/550，3JD/610，剩1P 大连 79P 50P/DOLE/SANTINA/2IN1/5KG/2JD/550，3JD/610，走29P 15P/WEBER/SANTINA/2.5KG/2JD/260-270，剩6P 14P/DDC/SANTINA/2.5KG/2JD/280，3JD/310，清"
+
+El problema surge, en que aunque la informacion sigue un patron, no existe forma de exportar esta informacion en excel/google_sheets, lo cual dificulta la exploracion de estos datos. 
+
+### Mi solucion presenta las siguientes etapas:
 
 1. El usuario deja archivos `.txt` en `Input/Entrada`.
 2. Ejecuta el programa desde consola.
@@ -235,10 +242,3 @@ datas=[("diccionarios.json", ".")]
 
 Esto agrega el diccionario al ejecutable.
 
-## 10. Sugerencias futuras de mejora
-
-- Crear un archivo de log en `Salida`.
-- Agregar una columna `estado` con `OK` o `REVISAR`.
-- Evitar duplicados si se procesa el mismo archivo dos veces.
-- Permitir configurar el nombre del Excel de salida.
-- Agregar pruebas automaticas para formatos nuevos.
